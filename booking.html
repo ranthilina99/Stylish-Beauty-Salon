@@ -1,0 +1,210 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>SERVICES</title>
+	<link rel="stylesheet"  href="styles/booking.css"/>
+	
+	<style>
+		body{
+		   background:#1a1a1a
+		}	
+	</style>
+
+
+     <script src="js/booking.js"></script>
+        <link href="generic.css" rel="stylesheet" type="text/css" />
+</head>
+<body>
+	<div class="wrapper">
+		<div class="top-bar clearfix">
+			<div class="top-bar-links">
+			
+					
+					<ul>
+					<a href="Home.html"> <img src="images\logo.jpg" alt="our logo" height="75px" width="130px"> </a>
+					<li><a href="service.html">SERVICES</a></li>
+					<li><a href="product.html">PRODUCTS</a></li>
+					<li><a href="team.html">TEAM</a></li>
+					<li><a href="aboutus.html">ABOUT US</a></li>
+					<li><a href="feedback.html">FEEDBACK</a></li>
+					<li><a href="contactus.html">CONTACT US</a></li>
+					<li><a href="gallery.html">GALLERY</a></li>
+					<li><a href="shopping.html">CART</a></li>
+             				<li><a href="login.html">SIGN IN</a></li>
+				</ul>
+			
+			</div> <!--top-bar-links-->
+
+			<div class="site-search">
+				<form method="get" action="index.html" >
+					<input type="search" name="search-box">
+					<button type="submit"></button>
+				</form>
+			</div><!--site-search-->
+
+		</div> <!--top-bar-->
+
+		<div>	
+		<img src="images\cover.jpg" align="middle" alt="my logo"  height="100%" width="100%" >
+	</div>
+	
+
+		<div>
+			<form action="booking.html" style="border:1px solid #ccc">
+	<div>		
+    <div class="container">
+	<center>
+    <h1 style="color:white;">BOOK APPOINTMENT</h1>
+    <p style="color:white;">Please fill in this form to Book Appointment.</p>
+	</center>
+	</div>
+	
+    <hr>
+	<br>
+	
+	
+	 
+	 <div style="color:white;" class="x">
+    <center><label for="name"><b>Full Name:</b></label>
+	<input type="text"    placeholder="Enter Your Full Name" name="name" required>
+	<br>
+	
+	
+	<label for="phone-number"><b>Teliphone Number:</b></label>
+    <input type="text"    placeholder="Enter Teliphone Number" name="phone-number" required>
+	<br>
+	
+	
+    <label for="email"><b>Email Address:</b></label>
+    <input type="text"    placeholder="Enter Email" name="email" required>
+    <br> 
+	
+	
+	<label for="Appointment"><b>Appointment Type:</b></label>
+    <input type="text"    placeholder="Enter Appointment Type" name="Appointment" required>
+    <br> 
+	
+	
+	<label for="Appointment"><b>Appointment Date:</b></label>
+    <input type="text"    placeholder="Enter Appointment Date" name="Appointment" required>
+    <br> 
+	<br>
+	
+    <label for="Password"><b> ***************************If You are Registered Customer**************************<br><br><br><br>Enter Your password:</b></label>
+    <input type="password" id="psw" placeholder="Enter Password" name="psw" pattern="(?=.*\d)(?=.*[a-z])(?=.*[A-Z]).{8,}" title="Must contain at least one number and one uppercase and lowercase letter, and at least 8 or more characters" required>
+    <br>
+	<br>
+	
+    <label for="psw-repeat"><b>Password:</b></label>
+    <input type="password" placeholder="Repeat Password" name="psw-repeat" required>
+    <br> 
+	
+	
+	<div id="message">
+  <h3>Password must contain the following:</h3>
+  <p id="letter" class="invalid">A <b>lowercase</b> letter</p>
+  <p id="capital" class="invalid">A <b>capital (uppercase)</b> letter</p>
+  <p id="number" class="invalid">A <b>number</b></p>
+  <p id="length" class="invalid">Minimum <b>8 characters</b></p>
+</div>
+	
+	<label>
+      <input type="checkbox" checked="checked" name="remember" style="margin-bottom:15px"> Remember me
+    </label>
+
+    <p>By Booking an Appointment <a href="#" style="color:dodgerblue">Terms & Privacy</a>.</p>
+    </center>
+	</div>
+	
+	
+	
+	<center>    
+	
+				<input type="Reset" class="contact-form-btn" > 
+				<input type="Submit" class="contact-form-btn"  disabled id="btnSub" value="Send"></center>
+    
+	</center>
+  </div>
+</form>
+
+<div>
+<div class="month"> 
+  <ul>
+    <li class="prev">&#10094;</li>
+    <li class="next">&#10095;</li>
+    <li>August<br><span style="font-size:18px">2017</span></li>
+  </ul>
+</div>
+
+<ul class="weekdays">
+  <li>Mo</li>
+  <li>Tu</li>
+  <li>We</li>
+  <li>Th</li>
+  <li>Fr</li>
+  <li>Sa</li>
+  <li>Su</li>
+</ul>
+
+<ul class="days"> 
+  <li>1</li>
+  <li>2</li>
+  <li>3</li>
+  <li>4</li>
+  <li>5</li>
+  <li>6</li>
+  <li>7</li>
+  <li>8</li>
+  <li>9</li>
+  <li>10</li>
+  <li>11</li>
+  <li>11
+  <li>12</li>
+  <li>13</li>
+  <li>14</li>
+  <li>15</li>
+  <li>16</li>
+  <li>17</li>
+  <li>18</li>
+  <li>19</li>
+  <li>20</li>
+  <li>21</li>
+  <li>22</li>
+  <li>23</li>
+  <li>24</li>
+  <li>25</li>
+  <li>26</li>
+  <li>27</li>
+  <li>28</li>
+  <li><span class="active">29</span></li>
+  <li>30</li>
+  <li>31</li>
+</ul>
+
+</div>
+
+	
+	 <div class="clearfix">
+      <button type="button" class="cancelbtn">Cancel</button>
+      <button type="book" class="book-appointment">Book Now</button>
+    </div>
+	
+			<div style="background-color:#0d0d0d;">
+			<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+			<!-- Add font awesome icons -->
+			<a href="https://www.facebook.com" class="fa fa-facebook"></a>
+			<a href="https://www.twitter.com" class="fa fa-twitter"></a>
+			<a href="https://www.gmail.com" class="fa fa-google"></a>
+			<a href="https://www.instagram.com" class="fa fa-instagram"></a>
+		</div>
+		<div class="footer">
+		<p>2019 @STYLISH. All Rights Reserved.</p>
+			
+		</div>
+	</div> <!--wrapper-->
+
+	
+
+</body>
+</html>

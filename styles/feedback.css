@@ -1,0 +1,46 @@
+.from {
+	font-size:20px;
+	padding: 16px;
+    color:#fff;
+	text-align:center;
+}
+.section{
+  background: url(../images/feedback.jpg) ;
+  background-size: cover;
+  padding: 40px 0;
+}
+.text{
+	display:block;
+	background:#ddd;
+	 padding: 10px 60px;
+	color:#111;
+	border: 0;
+	border:1px solid Black;
+}
+.submit{
+	padding:15px;
+	color:red;
+}
+.contact-form-btn{
+  float: center;
+  border: 0;
+  margin-right:10px;
+  background: #34495e;
+  color: #fff;
+  padding: 10px 40px;
+  border-radius: 20px;
+  cursor: pointer;
+  transition: 0.5s;
+}
+.contact-form-btn:hover{
+  background: #2980b9;
+}
+
+.container1 {
+  border-radius: 10px;
+  background-color:rgba(51, 52, 60, 0.8);
+  padding: 20px;
+  width:50%;
+  margin:20px;
+  
+}

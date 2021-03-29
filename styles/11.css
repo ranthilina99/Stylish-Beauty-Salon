@@ -1,0 +1,141 @@
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+* {
+  box-sizing: border-box;
+}
+h2,h3{
+	font-family: Arial, Helvetica, sans-serif;
+	text-align: center;
+}
+.addmin{
+  padding: 20px;
+  text-align: center;
+    
+ background-image:url("../images/abc.jpg");
+  color: balck;
+}
+.sidenav {
+  height: 100%;
+  width: 200px;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  background-color: blue;
+  overflow-x: hidden;
+  padding-top: 20px;
+  
+  
+}
+.center {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+/* Create a column layout with Flexbox */
+.row {
+  display: flex;
+}
+
+/* Left column (menu) */
+.left {
+  flex: 25%;
+  padding: 15px 0;
+   background-color:black;
+    
+  
+}
+
+.left h2 {
+  padding-left: 8px;
+ color:black;
+}
+
+/* Right column (page content) */
+.right {
+  flex: 65%;
+  padding: 15px;
+  background-image:url("../images/Untitled-1.jpg");
+  margin-bottom:100px;
+ float:center;
+  margin-top:10px;
+  
+}
+
+/* Style the search box */
+#mySearch {
+  width: 100%;
+  font-size: 18px;
+  padding: 11px;
+  border: 1px solid #ddd;
+}
+
+/* Style the navigation menu inside the left column */
+#myMenu {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+  color:black;
+  
+}
+
+#myMenu li a {
+  padding: 12px;
+  text-decoration: none;
+  color: white;
+  display: block
+}
+
+#myMenu li a:hover {
+  background-color: red;
+}
+#navigation {
+    text-transform: uppercase;
+    padding: 15px 15px 15px 15px;
+    color: #FFFFFF;
+    background: black;
+    display: block;
+}
+.col-50 {
+  -ms-flex: 80%; /* IE10 */
+  flex: 80%;
+  background:black;
+  color:white;
+}
+.icon-container {
+  margin-bottom: 20px;
+  padding: 7px 0;
+  font-size: 24px;
+}
+label {
+    margin-bottom: 10px;
+    display: block;
+}
+.notification {
+  background-color: #555;
+  color: white;
+  text-decoration: none;
+  padding: 15px 26px;
+  position: relative;
+  display: inline-block;
+  border-radius: 2px;
+}
+
+.notification:hover {
+  background: red;
+}
+
+.notification .badge {
+  position: absolute;
+  top: -10px;
+  right: -10px;
+  padding: 5px 10px;
+  border-radius: 50%;
+  background: red;
+  color: white;
+ float:right;
+}

@@ -1,0 +1,37 @@
+
+	 
+	
+	
+	#bob{
+	
+	width:40%;
+	margin:auto;
+	padding:7%;
+	background-coLor:rgb(0,0,0,0.4);
+	font-size:15px;
+}
+	
+	.tabl{
+      
+       
+    padding: 55px 15px;
+    border: 5px solid gray;
+    font-size:20px;
+	
+	 }
+	 
+	 .tabl input{
+		 width:100%;
+		 margin-bottom: 20px;
+		 font-size:25px;
+	 }
+	 .img1{
+		  background-image:url(../images/ass.jpg);
+		  background-repeat:no repeat;
+		  background-size:100% 1000px;
+		  
+	 }
+	 
+	 .tabl label{
+		 font-size:25px;
+	 }

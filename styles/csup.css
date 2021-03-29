@@ -1,0 +1,115 @@
+
+.logo {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 30%;
+}
+.footer {
+
+   left: 0;
+   bottom: 0;
+   width: 100%;
+
+   color: white;
+   text-align: center;
+   font-family: Arial, Helvetica, sans-serif;
+}
+
+/* Add padding to container elements */
+.container {
+  padding: 16px;
+  color:white;		
+}
+
+/* Clear floats */
+.clearfix::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+/* Change styles for cancel button and signup button on extra small screens */
+@media screen and (max-width: 300px) {
+  .cancelbtn, .signupbtn {
+    width: 100%;
+  }
+}
+
+
+/* Float cancel and signup buttons and add an equal width */
+.cancelbtn{ 
+  float: left;
+  width: 25%;
+}
+
+.signupbtn {
+  float: Right;
+  width: 25%;
+}
+
+* {box-sizing: border-box}
+
+/* Full-width input fields */
+  input[type=text], input[type=password] {
+  width: 100%;
+  padding: 15px;
+  margin: 5px 0 22px 0;
+  display: inline-block;
+  border: none;
+  background: #white;
+}
+
+input[type=text]:focus, input[type=password]:focus {
+  background-color: #ddd;
+  outline: none;
+}
+
+hr {
+  border: 1px solid #f1f1f1;
+  margin-bottom: 25px;
+}
+
+/*cancel button */
+.cancelbtn {
+
+  background-color: #8c8c8c;
+  border: 1px;
+  color: white;
+  padding: 10px 20px;
+  text-align: center;
+  font-size: 16px;
+  margin: 7px 7px;
+  margin-left: 160px;
+  transition: 0.3s;
+  border-radius: 12px;
+ 
+}
+
+.cancelbtn:hover {
+
+	opacity: 0.8;
+	background-color: #000000;
+}
+
+/*sign up */
+.signupbtn {
+
+  background-color: #8c8c8c;
+  border: 1px;
+  color: white;
+  padding: 10px 20px;
+  text-align: center;
+  font-size: 16px;
+  margin: 7px 7px;
+  margin-left: 160px;
+  transition: 0.3s;
+  border-radius: 12px;
+ 
+}
+
+.signupbtn:hover {
+
+	opacity: 0.8;
+	background-color: #000000;
+}

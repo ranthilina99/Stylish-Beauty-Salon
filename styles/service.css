@@ -1,0 +1,261 @@
+a{ text-decoration:none;}
+.clearfix{overflow: auto}
+
+/* Style the wrapper */
+
+.wrapper {
+	margin: auto;
+}
+
+.top-bar {
+	margin: auto;
+	background:black;		 	
+}
+
+.top-bar-links{
+	float:left;
+}
+
+.top-bar-links ul {
+	margin:15px;
+	list-style:none;
+}
+.top-bar-links ul li{
+	padding:0 10px;
+	display: inline-block;
+}
+
+.top-bar-links ul li:hover{
+	
+        opacity: 0.8;
+	background-color: #000000;
+}
+
+.top-bar-links ul li a{
+	color: white;
+}
+.site-search{
+	padding:0 5px;
+	margin:15px;
+	float:right;
+	background: white;
+	border-radius:10px;
+}
+
+.site-search input{
+	border:0;
+}
+
+.site-search button{
+	width:18px;
+	height:18px;
+	border:0;
+}
+
+
+
+
+
+
+/* Style all font awesome icons */
+.fa {
+
+	background: #d87979; 
+	margin: 50px;
+    padding: 20px;
+    font-size: 30px;
+    width: 50px;
+    text-align: center;
+    text-decoration: none;
+}
+
+/* Add a hover effect if you want */
+.fa:hover {
+    opacity: 0.7;
+}
+
+/* Set a specific color for each brand */
+
+/* Facebook */
+.fa-facebook {
+	margin-left:300px;
+    background: #3B5998;
+    color: white;
+}
+
+/* Twitter */
+.fa-twitter {
+    background: #55ACEE;
+    color: white;
+}
+.fa-instagram {
+  background: #125688;
+  color: white;
+}
+.fa-google {
+  background: #dd4b39;
+  color: white;
+}
+
+
+.footer {
+   position: fixed;
+   left: 0;
+   bottom: 0;
+   width: 100%;
+   background-color: #000000;
+   color: white;
+   text-align: center;
+   font-family: Arial, Helvetica, sans-serif;
+}
+
+/*overlay*/
+#overlay1 {
+    position: fixed;
+    display: none;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(0,0,0,0.5);
+    z-index: 2;
+    cursor: pointer;
+}
+#text1{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    font-size: 50px;
+    color: white;
+    transform: translate(-50%,-50%);
+    -ms-transform: translate(-50%,-50%);
+}
+#overlay2 {
+    position: fixed;
+    display: none;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(0,0,0,0.5);
+    z-index: 2;
+    cursor: pointer;
+}
+#text2{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    font-size: 50px;
+    color: white;
+    transform: translate(-50%,-50%);
+    -ms-transform: translate(-50%,-50%);
+	
+}
+
+.container {
+  position: relative;
+  width: 50%;
+}
+
+.image {
+  display: block;
+  width: 200%;
+  height: 100%;
+
+}
+
+.overlay {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 100%;
+  width: 200%;
+  opacity: 0;
+  transition: .5s ease;
+  background-color: #d87979;
+}
+
+.container:hover .overlay {
+  opacity: 1;
+}
+
+.text {
+  color: white;
+  font-size: 20px;
+  font-family: Arial, Helvetica, sans-serif; 
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
+.pane1 {
+    width: 51%;
+    height: 100%;
+    float: left;
+    border-collapse: collapse;
+}
+
+.pane2 {
+    width: 44%;
+    height: 100%;
+    float: left;
+    border-collapse: collapse;
+}
+
+table, th, td {
+  border: 1px solid rgba(0,0,0,0.5);;
+  text-align: left;
+   border-collapse: collapse;
+   
+}
+th, td {
+  padding: 15px;
+}
+table {
+  border-spacing: 5px;
+}
+table {
+  background-color: #d87979;
+}
+
+#myInput {
+  background-image: url('/image.png'); 
+  background-position: 10px 12px; 
+  background-repeat: no-repeat; 
+  width: 100%; 
+  font-size: 16px; 
+  padding: 12px 20px 12px 40px; /
+  border: 1px solid #ddd; 
+  margin-bottom: 12px; 
+}
+
+#myUL {
+ 
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+
+#myUL li a {
+  border: 1px solid #ddd; 
+  margin-top: -1px; 
+  background-color: #d87979;
+  padding: 12px; 
+  text-decoration: none; 
+  font-size: 18px; 
+  color: black; 
+  display: block; 
+}
+
+#myUL li a:hover:not(.header) {
+  background-color: #eee;
+}

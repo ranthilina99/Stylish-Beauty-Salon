@@ -1,0 +1,266 @@
+a{ text-decoration:none;}
+{box-sizing: border-box}
+
+/* Full-width input fields */
+  input[type=text], input[type=password] {
+  width: 50%;
+  padding: 15px;
+  margin: 5px 0 22px 0;
+  display: inline-block;
+  border: none;
+  background: white;
+}
+
+x{
+	
+	font:white;
+}
+
+
+input[type=text]:focus, input[type=password]:focus {
+  background-color: #d87979;
+  outline: none;
+}
+
+hr {
+  border: 1px solid #f1f1f1;
+  margin-bottom: 25px;
+}
+
+
+/* The message box is shown when the user clicks on the password field */
+#message {
+  display:none;
+  background: #f1f1f1;
+  color: #000;
+  position: relative;
+  padding: 20px;
+  margin-top: 10px;
+}
+
+#message p {
+  padding: 10px 35px;
+  font-size: 18px;
+}
+
+
+
+/* Set a style for all buttons */
+.contact-form-btn{
+  float: center;
+  border: 0;
+  margin-right:10px;
+  background: #34495e;
+  color: #fff;
+  padding: 10px 40px;
+  border-radius: 20px;
+  cursor: pointer;
+  transition: 0.5s;
+}
+
+button:hover {
+  opacity:1;
+}
+
+/* Extra styles for the cancel button */
+.cancelbtn,.book-appointment{
+  padding: 14px 20px;
+  background-color: #55ACEE;
+}
+
+
+/* Float cancel and book now buttons and add an equal width */
+.cancelbtn, .book-appointment {
+  float: left;
+  width: 50%;
+}
+
+/* Add padding to container elements */
+.container {
+  padding: 16px;
+}
+
+/* Clear floats */
+.clearfix::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+/* Change styles for cancel button and book now button on extra small screens */
+@media screen and (max-width: 300px) {
+  .cancelbtn, .book-Now {
+    width: 100%;
+  }
+} 
+
+
+/* Facebook */
+.fa-facebook {
+	margin-left:300px;
+    background: #3B5998;
+    color: white;
+}
+
+/* Twitter */
+.fa-twitter {
+    background: #55ACEE;
+    color: white;
+}
+.fa-instagram {
+  background: #125688;
+  color: white;
+}
+.fa-google {
+  background: #dd4b39;
+  color: white;
+}
+
+
+
+.footer {
+   position: fixed;
+   left: 0;
+   bottom: 0;
+   height: 5%;
+   width: 100%;
+   background-color: #000000;
+   color: white;
+   text-align: center;
+   font-family: Arial, Helvetica, sans-serif;
+}
+/* Style the wrapper */
+
+.wrapper {
+	margin: auto;
+}
+
+.top-bar {
+	margin: auto;
+	background:black;		 	
+}
+
+.top-bar-links{
+	float:left;
+}
+
+.top-bar-links ul {
+	margin:15px;
+	list-style:none;
+}
+.top-bar-links ul li{
+	padding:0 10px;
+	display: inline-block;
+}
+
+.top-bar-links ul li:hover{
+	
+        opacity: 0.8;
+	background-color: #000000;
+}
+
+.top-bar-links ul li a{
+	color: white;
+}
+
+.site-search{
+	padding:3px 5px 3px 10px;
+	margin:15px;
+	float:right;
+	background: white;
+	border-radius:10px;
+}
+
+.site-search input{
+	border:0;
+	float:left;
+}
+
+.site-search button{
+	background:url(../images/search.png);
+	width:18px;
+	height:18px;
+	border:none;
+	height:18px;
+	border:0;
+	float:right;
+}
+ul {list-style-type: none;}
+body {font-family: Verdana, sans-serif;}
+
+/* Month header */
+.month {
+  padding: 70px 25px;
+  width: 100%;
+  background: #125688;
+  text-align: center;
+}
+
+/* Month list */
+.month ul {
+  margin: 0;
+  padding: 0;
+}
+
+.month ul li {
+  color: white;
+  font-size: 20px;
+  text-transform: uppercase;
+  letter-spacing: 3px;
+}
+
+/* Previous button inside month header */
+.month .prev {
+  float: left;
+  padding-top: 10px;
+}
+
+/* Next button */
+.month .next {
+  float: right;
+  padding-top: 10px;
+}
+
+/* Weekdays (Mon-Sun) */
+.weekdays {
+  margin: 0;
+  padding: 10px 0;
+  background-color:#ddd;
+}
+
+.weekdays li {
+  display: inline-block;
+  width: 10%;
+  color: #666;
+  text-align: center;
+}
+
+/* Days (1-31) */
+.days {
+  padding: 10px 0;
+  background: #eee;
+  margin: 0;
+}
+
+.days li {
+  list-style-type: none;
+  display: inline-block;
+  width: 10%;
+  text-align: center;
+  margin-bottom: 5px;
+  font-size:12px;
+  color: #777;
+}
+
+/* Highlight the "current" day */
+.days li .active {
+  padding: 5px;
+  background: rgba(0,0,0,0.5);
+  color: white !important
+}
+body, html {
+  height: 100%;
+}
+
+
+
